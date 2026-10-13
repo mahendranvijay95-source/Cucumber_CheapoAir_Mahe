@@ -1,0 +1,188 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "flight-booking-on-cheapoair;book-a-round-trip-flight-with-multiple-travelers",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Book a round-trip flight with multiple travelers",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 597588600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open Cheapoair in Chrome",
+            "match": {
+              "location": "stepdefinition\\cheapair.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12426343100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I close initial popups",
+            "match": {
+              "location": "stepdefinition\\cheapair.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 187406100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I select \"Flights\" tab",
+            "match": {
+              "location": "stepdefinition\\cheapair.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81231600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I choose \"Round-trip\"",
+            "match": {
+              "location": "stepdefinition\\cheapair.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 525672900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I add 4 adults and 4 seniors",
+            "match": {
+              "location": "stepdefinition\\cheapair.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 838650899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I enter departure as \"MAA\" and destination as \"DEL\"",
+            "match": {
+              "location": "stepdefinition\\cheapair.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55424699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I select departure date \"12 October 2026\" and return date \"15 October 2026\"",
+            "match": {
+              "location": "stepdefinition\\cheapair.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1743013199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I search for flights",
+            "match": {
+              "location": "stepdefinition\\cheapair.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 338704700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I select the first available flight",
+            "match": {
+              "location": "stepdefinition\\cheapair.steps.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29395242599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I fill traveler details",
+            "match": {
+              "location": "stepdefinition\\cheapair.steps.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18124719000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I proceed to payment",
+            "match": {
+              "location": "stepdefinition\\cheapair.steps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2034338099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1163089499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cheapAir",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "flight-booking-on-cheapoair",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Flight booking on Cheapoair",
+    "tags": [],
+    "uri": "feature\\cheapAir.feature"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "cucumber_aug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test-tag": "cucumber-js --tags @smoke",
+    "test-data": "cucumber-js --tags @rowHashes",
+     "test-data1": "cucumber-js --tags @hashes",
+     "test-adactin": "cucumber-js --tags @adactinLogin",
+     "test-cheapAir":"cucumber-js --tags @cheapAir",
+    "test-outline": "cucumber-js --tags @scen_outline"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.9.0",
+    "@playwright/test": "^1.62.1",
+    "allure-commandline": "^2.43.0",
+    "allure-cucumberjs": "^3.10.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
