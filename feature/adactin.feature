@@ -1,5 +1,6 @@
 Feature: Adactin hotel booking
 #First Change
+#2nd Change
 @adactinLogin
 Scenario: Login Page validation
   Given Open Adactin login page
