@@ -21,11 +21,8 @@ When('Enter credentials', async function (dataTable) {
     await adactinLogin.userName.fill(cred.userName);
     await adactinLogin.password.fill(cred.password);
     await adactinLogin.login.click();
-<<<<<<< HEAD
     console.log("My Change to validated git conflict");
-=======
     console.log("Team Change to validate git conflict");
->>>>>>> 3b7c26f7e90146b61a859b7e045586a8c7fd71ff
 });
 
 
