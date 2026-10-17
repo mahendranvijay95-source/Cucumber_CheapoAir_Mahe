@@ -1,0 +1,34 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main',
+                    credentialsId: 'github-creds',
+                    url: 'https://github.com/mahendranvijay95-source/Cucumber_CheapoAir_Mahe.git'
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                echo 'Installing npm packages...'
+                sh 'npm install'
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                echo 'Executing Playwright + Cucumber tests...'
+                sh 'npx cucumber-js --tags @cheapAir'
+            }
+        }
+
+        stage('Archive Results') {
+            steps {
+                junit '**/reports/*.xml'   // if you generate JUnit XML reports
+                archiveArtifacts artifacts: '**/reports/**', fingerprint: true
+            }
+        }
+    }
+}
