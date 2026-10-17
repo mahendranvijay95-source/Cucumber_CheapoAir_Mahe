@@ -27,7 +27,7 @@ pipeline {
         stage('Run Tests') {
             steps {
                 echo 'Executing Playwright + Cucumber tests...'
-                sh 'npx cucumber-js --tags @cheapAir'
+                sh 'npm run test-cheapAir'
             }
         }
 
