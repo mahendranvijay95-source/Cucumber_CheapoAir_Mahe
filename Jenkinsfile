@@ -19,8 +19,8 @@ pipeline {
         stage('Install Playwright Latest') {
             steps {
                 echo 'Installing Playwright latest version...'
-                bat 'npm install -D @playwright/test@latest'
-                bat 'npx playwright install'
+                sh 'npm install -D @playwright/test@latest'
+                sh 'npx playwright install'
             }
         }
 
