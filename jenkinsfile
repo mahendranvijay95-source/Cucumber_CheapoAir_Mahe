@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    credentialsId: 'github-creds',
+                    credentialsId: 'mahendranerusan',
                     url: 'https://github.com/mahendranvijay95-source/Cucumber_CheapoAir_Mahe.git'
             }
         }
