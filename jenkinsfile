@@ -44,6 +44,6 @@ pipeline {
         //         junit '**/reports/*.xml'   // if you generate JUnit XML reports
         //         archiveArtifacts artifacts: '**/reports/**', fingerprint: true
         //     }
-        }
+        //}
     }
 }
