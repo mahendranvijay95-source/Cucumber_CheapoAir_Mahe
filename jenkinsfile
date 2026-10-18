@@ -27,7 +27,7 @@ pipeline {
         stage('Run Tests') {
             steps {
                 echo 'Executing Playwright + Cucumber tests...'
-                sh 'npm run test-cheapAir'
+                bat 'npm run test-cheapAir'
             }
         }
 
