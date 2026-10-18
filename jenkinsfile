@@ -13,7 +13,14 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 echo 'Installing npm packages...'
-                sh 'npm install'
+                bat 'npm install'
+            }
+        }
+        stage('Install Playwright Latest') {
+            steps {
+                echo 'Installing Playwright latest version...'
+                bat 'npm install -D @playwright/test@latest'
+                bat 'npx playwright install'
             }
         }
         stage('Install Playwright Latest') {
@@ -28,6 +35,7 @@ pipeline {
             steps {
                 echo 'Executing Playwright + Cucumber tests...'
                 bat 'npm run test-cheapAir'
+
             }
         }
 
