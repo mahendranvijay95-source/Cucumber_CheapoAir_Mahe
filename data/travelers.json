@@ -1,0 +1,67 @@
+[
+  {
+    "firstName": "Mahe",
+    "lastName": "Erusan",
+    "dob": { "day": "15", "month": "06", "year": "1991" },
+    "gender": "Male",
+    "country": "IN",
+    "email": "mahe.erusan@example.com"
+  },
+  {
+    "firstName": "Chitra",
+    "lastName": "Mahe",
+    "dob": { "day": "14", "month": "04", "year": "1991" },
+    "gender": "Female",
+    "country": "IN"
+  },
+  {
+    "firstName": "Hrithvik",
+    "lastName": "Mahe",
+    "dob": { "day": "10", "month": "12", "year": "1991" },
+    "gender": "Male",
+    "country": "IN"
+  },
+  {
+    "firstName": "Erusan",
+    "lastName": "Pad",
+    "dob": { "day": "14", "month": "04", "year": "1991" },
+    "gender": "Male",
+    "country": "IN"
+  },
+  {
+    "firstName": "Chitra",
+    "lastName": "Guna",
+    "dob": { "day": "14", "month": "04", "year": "1993" },
+    "gender": "Female",
+    "country": "IN"
+  },
+  {
+    "firstName": "Erusan",
+    "lastName": "Mahe",
+    "dob": { "day": "14", "month": "04", "year": "1960" },
+    "gender": "Male",
+    "country": "IN"
+  },
+  {
+    "firstName": "Vijaya",
+    "lastName": "Mahe",
+    "dob": { "day": "14", "month": "04", "year": "1955" },
+    "gender": "Female",
+    "country": "IN"
+  },
+  {
+    "firstName": "Saraswathi",
+    "lastName": "Mahe",
+    "dob": { "day": "14", "month": "04", "year": "1960" },
+    "gender": "Female",
+    "country": "IN"
+  },
+  {
+    "firstName": "Guna",
+    "lastName": "Mahe",
+    "dob": { "day": "14", "month": "04", "year": "1955" },
+    "gender": "Male",
+    "country": "IN"
+  }
+  
+]
