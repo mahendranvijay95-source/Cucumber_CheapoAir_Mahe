@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 597588600
+              "duration": 944124100
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12426343100
+              "duration": 8866119900
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 187406100
+              "duration": 1018462400
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 81231600
+              "duration": 148837499
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 525672900
+              "duration": 547980600
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 838650899
+              "duration": 1478707099
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 55424699
+              "duration": 125507600
             }
           },
           {
@@ -105,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1743013199
+              "duration": 2132202399
             }
           },
           {
@@ -118,7 +118,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 338704700
+              "duration": 360325900
             }
           },
           {
@@ -130,8 +130,9 @@
               "location": "stepdefinition\\cheapair.steps.ts:37"
             },
             "result": {
-              "status": "passed",
-              "duration": 29395242599
+              "status": "failed",
+              "duration": 30011475900,
+              "error_message": "browserContext.waitForEvent: Timeout 30000ms exceeded while waiting for event \"page\"\n    at SearchResultsPage.selectFirstFlight (C:\\Users\\Admin\\OneDrive\\Playwright\\Project\\Day 9 - Git Part2\\Git_CucumberCheapOAir\\Cucumber_CheapoAir_Mahe\\pages\\SearchResultsPage.ts:20:20)\n    at CustomWorld.<anonymous> (C:\\Users\\Admin\\OneDrive\\Playwright\\Project\\Day 9 - Git Part2\\Git_CucumberCheapOAir\\Cucumber_CheapoAir_Mahe\\stepdefinition\\cheapair.steps.ts:38:46)"
             }
           },
           {
@@ -143,8 +144,8 @@
               "location": "stepdefinition\\cheapair.steps.ts:42"
             },
             "result": {
-              "status": "passed",
-              "duration": 18124719000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -156,8 +157,8 @@
               "location": "stepdefinition\\cheapair.steps.ts:49"
             },
             "result": {
-              "status": "passed",
-              "duration": 2034338099
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -165,7 +166,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1163089499
+              "duration": 241234100
             }
           }
         ],
