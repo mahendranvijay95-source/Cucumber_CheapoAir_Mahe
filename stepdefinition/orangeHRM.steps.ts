@@ -23,9 +23,13 @@ When(
   async function (username: string, password: string) {
     await loginPage.enterUsername(username);
     await loginPage.enterPassword(password);
-    await loginPage.clickLogin();
+   
   }
 );
+
+When('I click on the Login button', async function () {
+   await loginPage.clickLogin();
+});
 
 // When("I leave username and password fields empty", async function () {
 //   await loginPage.enterUsername("");
