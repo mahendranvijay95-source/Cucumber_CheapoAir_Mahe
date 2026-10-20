@@ -34,11 +34,8 @@ pipeline {
         stage('Run Tests') {
             steps {
                 echo 'Executing Playwright + Cucumber tests...'
-<<<<<<< HEAD:jenkinsfile
-                sh 'npm run test-cheapAir'
-=======
-                bat 'npm run test-cheapAir'
->>>>>>> 8efb31355dd428a18d21b5f0f713172e5739cfed:Jenkinsfile
+
+                bat 'npm run test-OrangeHRM'
             }
         }
 
@@ -47,6 +44,6 @@ pipeline {
         //         junit '**/reports/*.xml'   // if you generate JUnit XML reports
         //         archiveArtifacts artifacts: '**/reports/**', fingerprint: true
         //     }
-        }
+        //}
     }
 }
