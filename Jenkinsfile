@@ -23,12 +23,19 @@ pipeline {
                 bat 'npx playwright install'
             }
         }
+        stage('Install Playwright Latest') {
+            steps {
+                echo 'Installing Playwright latest version...'
+                bat 'npm install -D @playwright/test@latest'
+                bat 'npx playwright install'
+            }
+        }
 
         stage('Run Tests') {
             steps {
                 echo 'Executing Playwright + Cucumber tests...'
 
-                bat 'npm run test-cheapAir'
+                bat 'npm run test-OrangeHRM'
             }
         }
 
@@ -37,6 +44,6 @@ pipeline {
         //         junit '**/reports/*.xml'   // if you generate JUnit XML reports
         //         archiveArtifacts artifacts: '**/reports/**', fingerprint: true
         //     }
-       // }
+        //}
     }
 }
