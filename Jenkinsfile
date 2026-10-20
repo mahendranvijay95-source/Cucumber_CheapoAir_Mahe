@@ -23,14 +23,7 @@ pipeline {
                 bat 'npx playwright install'
             }
         }
-        stage('Install Playwright Latest') {
-            steps {
-                echo 'Installing Playwright latest version...'
-                bat 'npm install -D @playwright/test@latest'
-                bat 'npx playwright install'
-            }
-        }
-
+      
         stage('Run Tests') {
             steps {
                 echo 'Executing Playwright + Cucumber tests...'
