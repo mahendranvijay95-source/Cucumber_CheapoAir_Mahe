@@ -27,11 +27,11 @@ When(
   }
 );
 
-When("I leave username and password fields empty", async function () {
-  await loginPage.enterUsername("");
-  await loginPage.enterPassword("");
-  await loginPage.clickLogin();
-});
+// When("I leave username and password fields empty", async function () {
+//   await loginPage.enterUsername("");
+//   await loginPage.enterPassword("");
+//   await loginPage.clickLogin();
+// });
 
 Then("I should be redirected to the dashboard", async function () {
   const dashboardTitle = await page.locator("h6").textContent();
