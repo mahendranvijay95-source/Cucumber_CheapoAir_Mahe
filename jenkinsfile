@@ -35,7 +35,7 @@ pipeline {
             steps {
                 echo 'Executing Playwright + Cucumber tests...'
 
-                bat 'npm run test-cheapAir'
+                bat 'npm run test-OrangeHRM'
             }
         }
 
