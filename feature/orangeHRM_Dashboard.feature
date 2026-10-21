@@ -5,7 +5,7 @@ Feature: OrangeHRM Dashboard Validation
 
   @DashboardHeader
   Scenario: Verify Dashboard header is displayed
-    Given I am logged in with valid credentials
+    Given I logged in with valid credentials
     When I navigate to the dashboard
     Then I should see the header "Dashboard"
 
