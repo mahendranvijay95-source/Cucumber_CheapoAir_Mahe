@@ -42,6 +42,7 @@ Then("I should be redirected to the dashboard", async function () {
   if (!dashboardTitle?.includes("Dashboard")) {
     throw new Error("Login failed - Dashboard not found!");
   }
+  console.log(`Sucessfully loged in ${dashboardTitle}`);
 });
 
 Then("I should see the welcome message", async function () {
