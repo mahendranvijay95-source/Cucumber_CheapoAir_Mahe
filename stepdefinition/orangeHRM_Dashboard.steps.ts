@@ -11,7 +11,7 @@ let page: Page;
 let loginPage: LoginPage;
 let dashboardPage: DashboardPage;
 
-Given("I am logged in with valid credentials", async function () {
+Given("I logged in with valid credentials", async function () {
   browser = await chromium.launch({ headless: false });
   page = await browser.newPage();
   loginPage = new LoginPage(page);
