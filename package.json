@@ -12,6 +12,7 @@
     "test-cheapAir": "cucumber-js --tags @cheapAir",
     "test-OrangeHRM": "cucumber-js --tags @ValidLogin",
     "test-OrangeHRMDashboard": "cucumber-js --tags @DashboardHeader",
+    "test-OrangeHRMAdmin": "cucumber-js --tags @AddUser",
     "test-outline": "cucumber-js --tags @scen_outline"
 
   },
